@@ -1,0 +1,11 @@
+[package]
+name = "gen-3depth-xpubs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bip32 = { version = "0.4.0", features = ["secp256k1", "alloc"] }
+dialoguer = "0.10.2"
+kdam = "0.2.4"
