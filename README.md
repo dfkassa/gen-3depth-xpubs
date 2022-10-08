@@ -1,7 +1,7 @@
 # gen-depth4-xpubs
 Generate 4th generation extended public keys from mnemonic phrase in CSV format (coin_type, xpub)
 
-Example output for entered mnemonic:
+Example output for an entered mnemonic:
 ```txt
 coin_type,xpub
 0,xpub6FC7DsaZZdBTCdte2qLYNH1B2WtteimtVG2yrdrwLFb9X92wE91NrGVfQM4LXgGzzyrU1aycJrXBmGAEK8AWk8hcg8obgbN7tAozxyCpTnd
