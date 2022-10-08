@@ -12,8 +12,9 @@ type ExitOr<T = ()> = Result<T, Box<dyn std::error::Error>>;
 
 
 fn main() -> ExitOr {
-    println!("[ 3th depth xpubs generator ]");
+    println!("[ 4th depth xpubs generator ]");
     println!("Version: {}", SELF_VERSION);
+    println!("RECOMMEND: disable your network connection while copy/pasting your mnemonic phrase");
 
     let mnemonic_words = dialoguer::Input
         ::new()
